@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/agendamentos.css">
+  <title>Agendamentos</title>
+</head>
+<body>
+  <header>
+    <h1>Agendamentos</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="empresas.html">Empresas</a>
+      <a href="pacientes.html">Pacientes</a>
+      <a href="agendamentos.html">Agendamentos</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Cadastro de Agendamento</h2>
+      <form id="agendamento-form">
+        <input type="text" id="paciente" placeholder="Nome do Paciente" required>
+        <input type="date" id="data" required>
+        <input type="time" id="horario" required>
+        <button type="submit">Agendar</button>
+      </form>
+    </section>
+    <section>
+      <h2>Lista de Agendamentos</h2>
+      <ul id="agendamento-list"></ul>
+    </section>
+  </main>
+  <script src="/dist/agendamentos.js"></script>
+</body>
+</html>
+
