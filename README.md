@@ -111,11 +111,3 @@ Se você deseja contribuir com o projeto, siga os seguintes passos:
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
-
-## Grupo
-
-# Leonardo Nogueira Rocha RA: 2401360
-# Christian Guillen RA: 2300281
-# João Vitor dos Santos Barreto RA: 2408495
-# Manuella de Souza Filgueiras RA: 2404788
-# Marco Antonio Oniveira Arruda RA: 2404514
